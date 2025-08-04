@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 7px 5px hsl(0, 1%, 86%);
+    padding: 10px;
+}
+
+.uber {
+    font-size: 30px;
+    float: left;
+    margin: 0 10px 0 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.eats {
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin: 0;
+    float: left;
+    color: green;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.aut-but {
+    float: right;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.aut-but button {
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 4px;
+}
+
+.market-logo {
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.under-header {
+    background-image: url(pushkin-images/image-for-bg.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding: 10px;
+    padding-left: 0;
+}
+
+#first-container{
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 70%;
+}
+
+.card-of-traktir {
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+      
+}
+
+.card-of-traktir h2 {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: 140px;
+}
+
+.styled-p {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    margin: 5px 0 60px 0;
+}
+
+.mini-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin: 0;
+    padding: 0 200px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+}
+
+.mini-menu a {
+    font-size: 20px;
+    color: #777676;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.mini-menu .current {
+    color: rgb(29, 124, 29);
+}
+
+.main-content {
+    margin-top: 50px;
+}
+
+.header-of-main-content h3{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+.card {
+    width: 100%;
+    min-width: 0;
+    height: 200px;
+    border: 1px solid rgba(158, 157, 157, 0.5);
+    margin: 10px 0;
+    padding-right: 0 !important;
+    padding-left: 20px !important;
+    transform: scale(0.9);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(209, 207, 207, 0.2);
+}
+
+.text-of-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 10px 40px 0 0;
+}
+
+.text-of-card * {
+     margin: 0;
+}
+
+.text-of-card p {
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.text-of-card h5 {
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.img-of-card {
+    margin-left:auto;
+    padding: 0;
+    max-width: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-of-card img {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-footer {
+    background-color: #262626;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.footer-header {
+    margin: 20px 0 20px 0;
+    padding-top: 25px;
+}
+
+.footer-header .uber {
+    color: white;
+    font-size: 40px;
+}
+
+.footer-header .eats {
+    font-size: 40px;
+}
+
+footer hr {
+    margin: 100px 45px;
+    margin-bottom: 60px;
+}
+
+.footer-content {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 500px;
+    margin-left: 45px;
+}
+
+.first-content *{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.first-content details {
+    background-color: #3B3B3B;
+}
+
+.first-content details summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+}
+
+.cursor-of-details {
+    margin: 10px 0 10px 80px;
+}
+
+.lang-logo {
+    margin: 0 10px 0 0;
+}
+
+.second-content a {
+    display: block;
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.third-content a {
+    display: block;
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.second-hr {
+    margin-top: 0;
+}
+
+.second-block-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.appstore-logo {
+    height: 60px;
+    width: auto;
+}
+
+.googleplay-logo {
+    height: 60px;
+    width: auto;
+}
+
+.last-hr {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.footer-of-footer {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 350px;
+    padding: 40px;
+    margin-top: 0;
+}
+
+.footer-of-footer p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+}
